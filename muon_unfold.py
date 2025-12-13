@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-Build response & efficiencies (detector-only),
-run iterative_unfold, and plot:
-- Efficiency vs truth energy
-- Response matrix (row-normalized heatmap)
-- Observed data vs MC vs unfolded
-- Unfolded signal-only (apply physics selection at truth level)
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 #import seaborn as sns
